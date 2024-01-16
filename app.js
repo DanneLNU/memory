@@ -1,5 +1,5 @@
 const cardsContainer = document.querySelector('.cards')
-const imageFolder = '/src/apps/memgame/images/'
+const imageFolder = './images/'
 const imageFileNames = ['akali.jpg', 'amumu.jpg', 'bard.jpg', 'briar.jpg', 'caitlyn.jpg', 'katarina.jpg', 'malhazar.jpg', 'mundo.jpg', 'nautilus.jpg', 'rakan.jpg', 'renekton.jpg', 'samira.jpg', 'taric.jpg', 'teemo.jpg', 'urgot.jpg', 'warwick.jpg', 'ziggs.jpg', 'annie.jpg', 'brand.jpg', 'braum.jpg', 'khazix.jpg', 'lee.jpg', 'orn.jpg', 'shaco.jpg', 'draven.jpg', 'ekko.jpg', 'jinx.jpg', 'rammus.jpg', 'soraka.jpg', 'veigar.jpg', 'vex.jpg', 'zyra.jpg']
 let imagesPicklist = [...imageFileNames, ...imageFileNames] // Duplicate the array because we need pairs of images aka spreadoperator
 let cardCount = imagesPicklist.length
