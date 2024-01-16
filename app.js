@@ -72,7 +72,7 @@ function cardClickHandler () {
 
     if (revealedCount === cardCount) {
       // Divide turnCount by 2 when displaying the number of tries
-      alert(`Grattis!! Du vann!! Det tog dig ${Math.floor(turnCount / 2)} försök`)
+      alert(`Grattis!! Du klarade det!! Det tog dig ${Math.floor(turnCount / 2)} försök`)
     }
   } else {
     awaitingEndOfMove = true
